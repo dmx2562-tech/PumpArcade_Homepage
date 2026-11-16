@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PumpArcade 부평 | Play Beyond Rhythm</title>
-  <meta name="description" content="PumpArcade 부평 — 리듬게임 전문 아케이드. 최신 기기, 쾌적한 공간, 그리고 커뮤니티." />
+  <title>PumpArcade 부평 | LED 타일 게임 아케이드</title>
+  <meta name="description" content="PumpArcade 부평 — 벽과 바닥이 빛나는 LED 타일 게임룸. 빛을 따라 뛰고, 피하고, 겨루는 체험형 아케이드." />
   <meta property="og:title" content="PumpArcade 부평" />
-  <meta property="og:description" content="리듬게임 전문 아케이드, PumpArcade 부평" />
+  <meta property="og:description" content="빛을 따라 뛰고, 피하고, 겨루는 LED 타일 게임 아케이드" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/gameroom-rainbow.jpg" />
+  <link rel="preload" as="image" href="assets/img/gameroom-rainbow.jpg" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
@@ -24,14 +26,14 @@
       </a>
 
       <nav class="nav" id="nav" aria-label="주요 메뉴">
-        <a href="#about">회사소개</a>
+        <a href="#about">소개</a>
         <a href="#facility">시설안내</a>
         <a href="#pricing">이용안내</a>
         <a href="#news">소식</a>
         <a href="#location">오시는 길</a>
       </nav>
 
-      <a href="#location" class="btn btn--sm btn--primary header__cta">방문 예약</a>
+      <a href="#location" class="btn btn--sm btn--primary header__cta">오시는 길</a>
 
       <button class="menu-btn" id="menuBtn" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav">
         <span></span><span></span>
@@ -44,43 +46,26 @@
     <!-- ============ HERO ============ -->
     <section class="hero">
       <div class="hero__bg" aria-hidden="true">
+        <img class="hero__photo" src="assets/img/gameroom-rainbow.jpg" alt="" />
+        <div class="hero__shade"></div>
         <div class="hero__grid"></div>
-        <div class="hero__glow"></div>
       </div>
 
       <div class="container hero__inner">
         <div class="hero__copy">
           <p class="eyebrow reveal">PUMPARCADE · BUPYEONG</p>
           <h1 class="hero__title reveal">
-            Play Beyond<br />
-            <span class="text-accent">Rhythm.</span>
+            Step into<br />
+            <span class="text-accent">the Light.</span>
           </h1>
           <p class="hero__lead reveal">
-            리듬이 시작되는 곳, PumpArcade 부평.<br />
-            최상의 기기 컨디션과 쾌적한 공간으로<br class="br-pc" />
-            새로운 아케이드 경험의 기준을 만듭니다.
+            벽과 바닥이 모두 빛나는 LED 타일 게임룸.<br />
+            빛을 따라 뛰고, 피하고, 겨루는<br class="br-pc" />
+            새로운 체험형 아케이드, PumpArcade 부평입니다.
           </p>
           <div class="hero__actions reveal">
             <a href="#facility" class="btn btn--primary">시설 둘러보기 <span class="arrow">→</span></a>
-            <a href="#pricing" class="btn btn--ghost">이용 요금 안내</a>
-          </div>
-        </div>
-
-        <div class="hero__visual reveal" aria-hidden="true">
-          <div class="pad">
-            <span class="pad__cell is-on"></span>
-            <span class="pad__cell"></span>
-            <span class="pad__cell is-on"></span>
-            <span class="pad__cell"></span>
-            <span class="pad__cell is-on is-center"></span>
-            <span class="pad__cell"></span>
-            <span class="pad__cell is-on"></span>
-            <span class="pad__cell"></span>
-            <span class="pad__cell is-on"></span>
-          </div>
-          <div class="hero__badge">
-            <strong>OPEN</strong>
-            <span>Daily 10:00 – 24:00</span>
+            <a href="#location" class="btn btn--ghost">오시는 길</a>
           </div>
         </div>
       </div>
@@ -88,20 +73,20 @@
       <div class="container">
         <dl class="stats">
           <div class="stats__item reveal">
-            <dt>보유 기기</dt>
-            <dd><span class="count" data-to="20">0</span><em>+</em></dd>
+            <dt>게임 방식</dt>
+            <dd>LED 타일</dd>
           </div>
           <div class="stats__item reveal">
-            <dt>매장 면적</dt>
-            <dd><span class="count" data-to="300">0</span><em>㎡</em></dd>
+            <dt>플레이 모드</dt>
+            <dd>라이벌매치</dd>
           </div>
           <div class="stats__item reveal">
-            <dt>연중 운영</dt>
-            <dd><span class="count" data-to="365">0</span><em>일</em></dd>
+            <dt>함께하기</dt>
+            <dd>친구 · 연인 · 가족</dd>
           </div>
           <div class="stats__item reveal">
-            <dt>정기 이벤트</dt>
-            <dd><span class="count" data-to="12">0</span><em>회/년</em></dd>
+            <dt>위치</dt>
+            <dd>부평 · 2F</dd>
           </div>
         </dl>
       </div>
@@ -113,33 +98,33 @@
         <div class="section__head">
           <p class="section__num">01 — About</p>
           <h2 class="section__title reveal">
-            게임 그 이상의 가치,<br />
-            <span class="text-muted">경험을 설계합니다.</span>
+            화면 대신 발밑에서,<br />
+            <span class="text-muted">온몸으로 즐기는 게임.</span>
           </h2>
         </div>
 
         <div class="about">
           <p class="about__lead reveal">
-            PumpArcade는 리듬게임을 사랑하는 모든 플레이어를 위해 탄생했습니다.
-            정기적인 기기 관리와 체계적인 운영으로, 언제 방문하셔도
-            최상의 플레이 환경을 약속드립니다.
+            PumpArcade는 공간 전체가 게임판이 되는 LED 타일 아케이드입니다.
+            빨간 타일은 피하고, 목표 타일은 먼저 밟고.
+            규칙은 단순하지만, 한 판이 끝나면 누구나 다시 도전하고 싶어집니다.
           </p>
 
           <div class="values">
             <article class="value reveal">
               <span class="value__idx">01</span>
-              <h3>Precision</h3>
-              <p>패널 감도, 화면 싱크, 사운드까지. 매일 점검하는 정밀한 기기 관리로 실력을 온전히 발휘할 수 있습니다.</p>
+              <h3>Move</h3>
+              <p>컨트롤러도, 조이스틱도 없습니다. 내 몸이 곧 컨트롤러가 되어 빛나는 타일 위를 달립니다.</p>
             </article>
             <article class="value reveal">
               <span class="value__idx">02</span>
-              <h3>Comfort</h3>
-              <p>넉넉한 동선, 쾌적한 공조 시스템, 휴게 공간까지. 오래 머물러도 편안한 공간을 지향합니다.</p>
+              <h3>Together</h3>
+              <p>친구와 대결하는 라이벌매치부터 함께 버티는 협동 플레이까지. 함께할수록 더 즐겁습니다.</p>
             </article>
             <article class="value reveal">
               <span class="value__idx">03</span>
-              <h3>Community</h3>
-              <p>초보자부터 랭커까지 함께 즐기는 대회와 정기 모임으로, 플레이어가 함께 성장하는 문화를 만듭니다.</p>
+              <h3>Comfort</h3>
+              <p>대기 라운지, 개인 보관함, 휴게 공간까지. 게임 전후로도 편안하게 머무를 수 있습니다.</p>
             </article>
           </div>
         </div>
@@ -152,37 +137,43 @@
         <div class="section__head section__head--split">
           <div>
             <p class="section__num">02 — Facility</p>
-            <h2 class="section__title reveal">플레이를 위한<br />모든 것을 갖췄습니다.</h2>
+            <h2 class="section__title reveal">공간 전체가<br />게임이 됩니다.</h2>
           </div>
           <p class="section__desc reveal">
-            리듬게임 전용 존부터 휴게 라운지까지,<br />
-            플레이어의 동선을 중심으로 공간을 설계했습니다.
+            LED 타일 게임룸부터 라운지, 포토존까지.<br />
+            입장부터 퇴장까지의 모든 순간을 설계했습니다.
           </p>
         </div>
 
         <div class="facility">
           <article class="fcard fcard--lg reveal">
-            <div class="fcard__media fcard__media--a" aria-hidden="true"></div>
+            <div class="fcard__media">
+              <img src="assets/img/gameroom-blue.jpg" alt="파란색과 보라색으로 빛나는 LED 타일 게임룸 바닥" loading="lazy" />
+            </div>
             <div class="fcard__body">
-              <span class="tag">MAIN ZONE</span>
-              <h3>리듬게임 전용 존</h3>
-              <p>최신 버전 기체를 중심으로 구성된 메인 플레이 존. 넓은 간격 배치로 퍼포먼스 플레이도 여유롭게.</p>
+              <span class="tag">GAME ROOM</span>
+              <h3>LED 타일 게임룸</h3>
+              <p>벽과 바닥을 가득 채운 LED 타일이 게임판이 됩니다. 화면의 규칙에 따라 타일을 밟고, 피하고, 점수를 겨룹니다.</p>
             </div>
           </article>
           <article class="fcard reveal">
-            <div class="fcard__media fcard__media--b" aria-hidden="true"></div>
+            <div class="fcard__media">
+              <img src="assets/img/lounge.jpg" alt="PUMP ARCADE 원형 네온사인 아래의 라운지 테이블과 보관함" loading="lazy" />
+            </div>
             <div class="fcard__body">
               <span class="tag">LOUNGE</span>
-              <h3>휴게 라운지</h3>
-              <p>플레이 사이 휴식을 위한 좌석과 음료 공간.</p>
+              <h3>라운지 · 보관함</h3>
+              <p>대기와 휴식을 위한 테이블 좌석, 개인 보관함, 음료 냉장고를 갖췄습니다.</p>
             </div>
           </article>
           <article class="fcard reveal">
-            <div class="fcard__media fcard__media--c" aria-hidden="true"></div>
+            <div class="fcard__media">
+              <img src="assets/img/entrance.jpg" alt="미러볼과 반짝이는 커튼으로 꾸민 입구 통로" loading="lazy" />
+            </div>
             <div class="fcard__body">
-              <span class="tag">AMENITY</span>
-              <h3>편의 시설</h3>
-              <p>개인 보관함, 파우더룸, 무료 Wi-Fi 제공.</p>
+              <span class="tag">PHOTO ZONE</span>
+              <h3>입구 포토존</h3>
+              <p>미러볼과 네온 조명으로 꾸민 입구. 게임 전 기념 사진을 남겨 보세요.</p>
             </div>
           </article>
         </div>
@@ -193,40 +184,40 @@
     <section class="section" id="pricing">
       <div class="container">
         <div class="section__head">
-          <p class="section__num">03 — Pricing</p>
-          <h2 class="section__title reveal">투명하고 합리적인<br />이용 안내</h2>
+          <p class="section__num">03 — Information</p>
+          <h2 class="section__title reveal">이용 안내</h2>
         </div>
 
+        <!-- TODO: 실제 요금으로 교체 -->
         <div class="pricing">
           <article class="plan reveal">
-            <h3 class="plan__name">Standard</h3>
-            <p class="plan__desc">가볍게 즐기는 1회 플레이</p>
-            <p class="plan__price"><strong>1,000</strong>원 <span>/ 1 크레딧</span></p>
+            <h3 class="plan__name">기본 이용</h3>
+            <p class="plan__desc">처음 방문하셨다면</p>
+            <p class="plan__price"><strong class="todo">(요금 입력)</strong></p>
             <ul class="plan__list">
-              <li>모든 기기 이용 가능</li>
-              <li>현금 · 카드 결제</li>
+              <li>게임 규칙 안내 제공</li>
+              <li>보관함 이용 가능</li>
             </ul>
           </article>
 
           <article class="plan plan--featured reveal">
-            <span class="plan__badge">BEST</span>
-            <h3 class="plan__name">Charge</h3>
-            <p class="plan__desc">자주 방문하는 플레이어를 위한 충전형</p>
-            <p class="plan__price"><strong>10,000</strong>원 <span>/ 11 크레딧</span></p>
+            <span class="plan__badge">PLAY</span>
+            <h3 class="plan__name">라이벌매치</h3>
+            <p class="plan__desc">친구와 함께 겨루는 대결 모드</p>
+            <p class="plan__price"><strong class="todo">(요금 입력)</strong></p>
             <ul class="plan__list">
-              <li>보너스 크레딧 지급</li>
-              <li>전 기종 공통 사용</li>
-              <li>잔액 이월 가능</li>
+              <li>2인 이상 대결 플레이</li>
+              <li>점수로 승부를 가리는 게임</li>
             </ul>
           </article>
 
           <article class="plan reveal">
-            <h3 class="plan__name">Group</h3>
-            <p class="plan__desc">대회 · 단체 · 대관 문의</p>
-            <p class="plan__price"><strong>별도 협의</strong></p>
+            <h3 class="plan__name">단체 · 대관</h3>
+            <p class="plan__desc">모임 · 행사 · 단체 방문</p>
+            <p class="plan__price"><strong>별도 문의</strong></p>
             <ul class="plan__list">
-              <li>단체 방문 · 동호회 모임</li>
-              <li>매장 대관 및 행사</li>
+              <li>친구 모임 · 동아리 · 회사 행사</li>
+              <li>시간 단위 대관 상담</li>
             </ul>
           </article>
         </div>
@@ -234,15 +225,15 @@
         <div class="hours reveal">
           <div class="hours__item">
             <span>영업시간</span>
-            <strong>매일 10:00 – 24:00</strong>
+            <strong class="todo">(영업시간 입력)</strong>
           </div>
           <div class="hours__item">
             <span>휴무</span>
-            <strong>연중무휴</strong>
+            <strong class="todo">(휴무일 입력)</strong>
           </div>
           <div class="hours__item">
-            <span>유의사항</span>
-            <strong>22시 이후 청소년 출입 제한</strong>
+            <span>위치</span>
+            <strong>건물 2층</strong>
           </div>
         </div>
         <p class="note">※ 요금 및 영업시간은 매장 사정에 따라 변경될 수 있습니다.</p>
@@ -252,12 +243,9 @@
     <!-- ============ NEWS ============ -->
     <section class="section section--soft" id="news">
       <div class="container">
-        <div class="section__head section__head--split">
-          <div>
-            <p class="section__num">04 — Newsroom</p>
-            <h2 class="section__title reveal">PumpArcade 소식</h2>
-          </div>
-          <a href="#news" class="link-more reveal">전체 보기 <span class="arrow">→</span></a>
+        <div class="section__head">
+          <p class="section__num">04 — Newsroom</p>
+          <h2 class="section__title reveal">PumpArcade 소식</h2>
         </div>
 
         <ul class="news">
@@ -265,21 +253,14 @@
             <a href="#news">
               <span class="news__cat">NOTICE</span>
               <span class="news__title">PumpArcade 부평 홈페이지를 오픈했습니다</span>
-              <time class="news__date" datetime="2026-11-15">2026.11.15</time>
+              <time class="news__date" datetime="2026-11-16">2026.11.16</time>
             </a>
           </li>
           <li class="news__item reveal">
-            <a href="#news">
-              <span class="news__cat">EVENT</span>
-              <span class="news__title">월간 랭킹 챌린지 — 이달의 플레이어를 찾습니다</span>
-              <time class="news__date" datetime="2026-11-01">2026.11.01</time>
-            </a>
-          </li>
-          <li class="news__item reveal">
-            <a href="#news">
-              <span class="news__cat">UPDATE</span>
-              <span class="news__title">정기 기기 점검 및 패널 교체 완료 안내</span>
-              <time class="news__date" datetime="2026-10-20">2026.10.20</time>
+            <a href="#facility">
+              <span class="news__cat">GUIDE</span>
+              <span class="news__title">라이벌매치 게임 규칙 — 매장 내 화면에서 확인하세요</span>
+              <time class="news__date" datetime="2026-11-16">2026.11.16</time>
             </a>
           </li>
         </ul>
@@ -295,22 +276,23 @@
         </div>
 
         <div class="location">
-          <div class="map reveal" aria-label="지도 영역">
-            <!-- TODO: 네이버/카카오 지도 iframe 으로 교체 -->
-            <div class="map__placeholder">
-              <span class="map__pin" aria-hidden="true"></span>
-              <p>PumpArcade 부평</p>
-            </div>
-          </div>
+          <figure class="storefront reveal">
+            <img src="assets/img/storefront.jpg" alt="PUMP ARCADE 간판이 걸린 매장 건물 외관. 1층에 메가MGC커피가 있다" loading="lazy" />
+            <figcaption>1층 메가MGC커피 건물 2층, PUMP ARCADE 간판을 찾아주세요.</figcaption>
+          </figure>
 
           <dl class="info reveal">
             <div class="info__row">
               <dt>주소</dt>
-              <dd>인천광역시 부평구 <span class="todo">(상세 주소 입력)</span></dd>
+              <dd>인천광역시 부평구 시장로 <span class="todo">(번지 입력)</span>, 2층</dd>
+            </div>
+            <div class="info__row">
+              <dt>찾아오기</dt>
+              <dd>1층 메가MGC커피 · 타코비가 있는 건물 2층</dd>
             </div>
             <div class="info__row">
               <dt>대중교통</dt>
-              <dd>인천 1호선 · 서울 1호선 부평역 인근 <span class="todo">(출구 정보 입력)</span></dd>
+              <dd>부평역 인근 <span class="todo">(출구 · 도보 시간 입력)</span></dd>
             </div>
             <div class="info__row">
               <dt>문의</dt>
@@ -318,7 +300,7 @@
             </div>
             <div class="info__row">
               <dt>SNS</dt>
-              <dd><span class="todo">(인스타그램 · 유튜브 계정 입력)</span></dd>
+              <dd><span class="todo">(인스타그램 계정 입력)</span></dd>
             </div>
           </dl>
         </div>
@@ -328,7 +310,7 @@
     <!-- ============ CTA ============ -->
     <section class="cta">
       <div class="container cta__inner">
-        <h2 class="reveal">지금, 당신의 리듬을<br />증명할 시간입니다.</h2>
+        <h2 class="reveal">빛나는 타일 위,<br />다음 승자는 당신입니다.</h2>
         <a href="#location" class="btn btn--light reveal">방문 안내 보기 <span class="arrow">→</span></a>
       </div>
     </section>
@@ -343,7 +325,7 @@
           <span class="logo__text">PUMP<b>ARCADE</b></span>
         </a>
         <nav class="footer__nav" aria-label="하단 메뉴">
-          <a href="#about">회사소개</a>
+          <a href="#about">소개</a>
           <a href="#facility">시설안내</a>
           <a href="#pricing">이용안내</a>
           <a href="#news">소식</a>
@@ -354,7 +336,7 @@
         <p class="footer__biz">
           상호 PumpArcade 부평 <i>|</i> 대표 <span class="todo">(대표자명)</span> <i>|</i>
           사업자등록번호 <span class="todo">(000-00-00000)</span><br />
-          주소 인천광역시 부평구 <span class="todo">(상세 주소)</span>
+          주소 인천광역시 부평구 시장로 <span class="todo">(번지)</span>, 2층
         </p>
         <p class="footer__copy">© <span id="year">2026</span> PumpArcade. All rights reserved.</p>
       </div>
